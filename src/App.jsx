@@ -1,9 +1,12 @@
 import './App.css';
+import Layouts from './components/Layout/Layouts';
 
 function App() {
  return(
   <>
-    <h1>Home Kit</h1>
+    <Layouts>
+      <h1>Welcome to the page</h1>
+    </Layouts>
   </>
  );
 }

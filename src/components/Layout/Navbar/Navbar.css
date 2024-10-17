@@ -1,0 +1,50 @@
+.navbar{
+  background: #1E1E1E;
+  height: 100px;
+}
+
+.nav_box{
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_logo{
+  width: 80px;
+  height: 80px;
+}
+
+.nav_link{
+  color: #fff;
+  font-size:20px;
+  padding: 8px 20px;
+}
+
+.nav_lang{
+  margin-left: 80px;
+}
+
+.nav_link_contact{
+  background: #B50A3F;
+  padding: 10px 22px;
+  margin: 0 16px 0 16px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.nav_select{
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #484848;
+  width: 50px;
+  height: 29px;
+  border-radius: 8px;
+  font-size: 20px;
+}
