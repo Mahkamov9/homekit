@@ -1,7 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Swiper from '../../components/Swiper/Swiper';
 
-export default function homepage() {
+
+export default function Homepage() {
   return (
-    <div>homepage</div>
+    <>
+      <Swiper/>
+    </>
   )
 }

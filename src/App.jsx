@@ -1,11 +1,12 @@
 import './App.css';
 import Layouts from './components/Layout/Layouts';
+import Homepage from './pages/homepage/Homepage';
 
 function App() {
  return(
   <>
     <Layouts>
-      <h1>Welcome to the page</h1>
+      <Homepage/>
     </Layouts>
   </>
  );
