@@ -26,6 +26,7 @@ export default function navbar() {
             </div>
             <div className="nav_box_item">
               <a  href="#" className="nav_link nav_link_contact">93 191 97 37 <span>Aloqa</span></a>
+              <a  href="#" className="nav_link nav_link_contact">93 191 97 37 <span>Aloqa</span></a>
             </div>
           </div>
         </div>
