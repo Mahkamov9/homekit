@@ -1,4 +1,4 @@
-fgimport './App.css';
+jhbjhfgimport './App.css';
 import Layouts from './components/Layout/Layouts';
 import Homepage from './pages/homepage/Homepage';
 
