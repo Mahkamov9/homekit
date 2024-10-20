@@ -1,4 +1,4 @@
-hbnbnbbjhbjhfgimport './App.css';
+import './App.css';
 import Layouts from './components/Layout/Layouts';
 import Homepage from './pages/homepage/Homepage';
 
