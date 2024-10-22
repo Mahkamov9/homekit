@@ -1,6 +1,7 @@
 .swipper{
   width: 100%;
   height: 90vh;
+  z-index: -1;
 }
 
 
@@ -26,7 +27,6 @@
   background-position: center center;
   width: 100%;
   height: 90vh;
-
   color: #fff;
   display: flex;
   justify-content: center;
@@ -70,4 +70,134 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   z-index: -1;
+}
+
+
+
+
+@media(max-width: 720px){
+  .container{
+    width: 600px;
+  }
+
+
+  .swiper_wrap .container h1{
+    margin-bottom: 40px;
+    font-size: 35px;
+    width: 80%;
+  }
+
+  .swiper_wrap .container p{
+    margin-bottom: 50px;
+    font-size: 18px;
+    width: 90%;
+
+
+  }
+
+  .swiper_wrap .container a{
+    margin-bottom: 30px;
+    font-size: 21px;
+    width: 80%;
+
+
+  }
+
+
+}
+
+
+
+@media(max-width: 620px){
+  .container{
+    width: 500px;
+  }
+
+
+  .swiper_wrap .container h1{
+    margin-bottom: 40px;
+    font-size: 35px;
+    width: 80%;
+  }
+
+  .swiper_wrap .container p{
+    margin-bottom: 50px;
+    font-size: 18px;
+    width: 90%;
+
+
+  }
+
+  .swiper_wrap .container a{
+    margin-bottom: 30px;
+    font-size: 20px;
+    width: 80%;
+
+
+  }
+
+
+}
+
+@media(max-width: 520px){
+  .container{
+    width: 400px;
+  }
+
+
+  .swiper_wrap .container h1{
+    margin-bottom: 40px;
+    font-size: 35px;
+    width: 80%;
+  }
+
+  .swiper_wrap .container p{
+    margin-bottom: 50px;
+    font-size: 18px;
+    width: 90%;
+
+
+  }
+
+  .swiper_wrap .container a{
+    margin-bottom: 30px;
+    font-size: 18px;
+    width: 80%;
+
+
+  }
+
+
+}
+
+
+@media(max-width: 420px){
+  .container{
+    width: 300px;
+  }
+
+
+  .swiper_wrap .container h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .swiper_wrap .container p{
+    margin-bottom: 30px;
+    font-size: 16px;
+    width: 100%;
+
+
+  }
+
+  .swiper_wrap .container a{
+    margin-bottom: 30px;
+    font-size: 16px;
+    width: 100%;
+
+
+  }
+
+
 }
